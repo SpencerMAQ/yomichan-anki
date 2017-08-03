@@ -10,6 +10,12 @@ yomichan.zip
 TODO_list_SpencerMAQ.py
 */**/*.db
 */*.db
+yomi_base/japanese/dictionary.db
+*/yomi_base/japanese/dictionary.db
+*/*/japanese/dictionary.db
+*/*/*/dictionary.db
+*/**/**/dictionary.db
+*/**/**/*.db
 
 # Ignore my scratch file
 dasdsa.py
