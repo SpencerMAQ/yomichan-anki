@@ -65,7 +65,7 @@ class Dictionary:
 
 
     def findKanji(self, text):
-        assert len(text) == 1
+        assert len(text) == 1 # len of any kanji = 1, if > 1, must be expression
 
         self.requireIndex('Kanji', 'character')
         self.requireIndex('KanjiGloss', 'kanjiId')
