@@ -5,6 +5,10 @@ yomichan.zip
 *.xml
 *.iml
 
+# db
+*.db
+TODO_list_SpencerMAQ.py
+
 # Ignore my scratch file
 dasdsa.py
 
