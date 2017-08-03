@@ -30,7 +30,7 @@ class Yomichan:
     Attributes common to both Standalone and Plugin version
     """
     def __init__(self):
-        self.language = japanese.initLanguage()
+        self.language = japanese.initLanguage()     # initialize settings from deinflect json and dict.db
 
         self.preferences = Preferences()
         self.preferences.load()
