@@ -8,6 +8,8 @@ yomichan.zip
 # db
 *.db
 TODO_list_SpencerMAQ.py
+*/**/*.db
+*/*.db
 
 # Ignore my scratch file
 dasdsa.py
