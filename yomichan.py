@@ -34,6 +34,10 @@ class Yomichan:
 
 
 class YomichanPlugin(Yomichan):
+    """
+    Used together with anki_bridge when the program is ran
+    as an Anki window
+    """
     def __init__(self):
         Yomichan.__init__(self)
 
@@ -75,6 +79,9 @@ class YomichanPlugin(Yomichan):
 
 
 class YomichanStandalone(Yomichan):
+    """
+    For use as an independent program from Anki
+    """
     def __init__(self):
         Yomichan.__init__(self)
 

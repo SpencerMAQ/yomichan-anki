@@ -51,7 +51,11 @@ class Preferences(object):
 
     def save(self):
         with codecs.open(self.filename, 'wb', 'utf-8') as fp:
-            json.dump(self.settings, fp, indent=4, sort_keys=True)
+            json.dump(self.settings,
+                      fp, indent=4,
+                      sort_keys=True,
+                      separators=(',', ': ')
+                      )
 
 
     def filePosition(self, filename):
