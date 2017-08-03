@@ -26,6 +26,9 @@ import sys
 
 
 class Yomichan:
+    """
+    Attributes common to both Standalone and Plugin version
+    """
     def __init__(self):
         self.language = japanese.initLanguage()
 
